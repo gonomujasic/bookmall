@@ -54,7 +54,7 @@ public class Test {
 		
 		//주문정보 삽입 OrdersDao
 		OrdersVo vo = new OrdersVo(BookmallUtil.getOrderingNo(), 
-				"서울시 금천구", 30000, 1L);
+				"서울시 금천구", 60000, 1L);
 		
 		//주문서적정보 삽입 OrderBookDao
 //		OrderBookVo vo = new OrderBookVo(30000, 1, 1L, 1L);
