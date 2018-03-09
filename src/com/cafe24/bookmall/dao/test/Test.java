@@ -29,7 +29,7 @@ public class Test {
 	
 	public static void insert(BookmallDao bd) {
 		
-		//고객정보 삽입
+		//고객정보 삽입 CustomerDao
 //		CustomerVo vo = 
 //				new CustomerVo("아무개", "010-1111-2222",
 //						"amuge@hotmail.com", "1234");
@@ -37,30 +37,26 @@ public class Test {
 //				new CustomerVo("이민규", "010-5559-9634",
 //						"gonomujasic@hotmail.com", "1234");		
 		
-		//카테고리정보 삽입
+		//카테고리정보 삽입 CategoryDao
 //		CategoryVo vo = new CategoryVo();
 //		vo.setCategory("문학");
 //		vo.setCategory("자연과학");
 //		vo.setCategory("사회과학");
 
-		//서적정보 삽입
+		//서적정보 삽입 BookDao
 //		BookVo vo = new BookVo("사회학개론",30000, 3);
 //		BookVo vo = new BookVo("컴퓨터개론",30000, 2);
 //		BookVo vo = new BookVo("경제학개론",30000, 3);
 	
-		//카트정보 삽입
+		//카트정보 삽입 CartDao
 //		CartVo vo = new CartVo(2L,1L,1);
 //		CartVo vo = new CartVo(1L,1L,1);
 		
-		//주문정보 삽입
-//		OrdersVo vo = new OrdersVo(BookmallUtil.getOrderingNo(), 
-//				"서울시 구로구", 30000, 1L);
-//		OrdersVo vo = new OrdersVo(BookmallUtil.getOrderingNo(), 
-//				"서울시 광진구", 30000, 2L);
+		//주문정보 삽입 OrdersDao
 		OrdersVo vo = new OrdersVo(BookmallUtil.getOrderingNo(), 
 				"서울시 금천구", 30000, 1L);
 		
-		//주문서적정보 삽입
+		//주문서적정보 삽입 OrderBookDao
 //		OrderBookVo vo = new OrderBookVo(30000, 1, 1L, 1L);
 //		OrderBookVo vo = new OrderBookVo(30000, 2, 2L, 2L);
 		
